@@ -1,0 +1,126 @@
+.dashboard-body {
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.dashboard-left {
+    height: 100%;
+    width: 20%;
+}
+
+.dashboard-right {
+    height: 100%;
+    width: 80%;
+}
+
+.dashboard-left-top {
+    height: 10%;
+    width: 100%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.133);
+}
+
+.dashboard-left-foot {
+    height: 90%;
+    width: 100%;
+    border-right: 3px solid rgba(0, 0, 0, 0.133);
+}
+
+.dashboard-right-top {
+    height: 10%;
+    width: 100%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.133);
+}
+
+.dashboard-right-foot {
+    height: 90%;
+    width: 100%;
+    padding: 10px;
+}
+
+.right-title {
+    font-size: 30px;
+    font-weight: 20px;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-repoart-box-parent {
+    height: 13%;
+    justify-content: space-evenly;
+}
+
+.dashboard-repoart-box {
+    height: 90%;
+    width: 23%;
+    max-width: 250px;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.dashboard-image {
+    height: 100%;
+    width: 35%;
+    justify-content: center;
+}
+
+.dashboard-image-content {
+    height: 100%;
+    width: 65%;
+
+}
+
+.dashboard-image-content-top {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.dashboard-image-content-foot {
+    height: 70%;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-image,
+.dashboard-repoart-box-parent {
+    display: flex;
+    align-items: center;
+}
+.dashboard-table{
+    height: 60%;
+    width: 90%;
+    max-width: 850px;
+    font-size: large;
+    margin-top: 10px;
+}
+.dashboard-th{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+.dashboard-th div{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.dashboard-tr{
+    display: flex;
+}
+.dashboard-tr div{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

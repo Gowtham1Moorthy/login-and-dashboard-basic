@@ -1,0 +1,99 @@
+.login-body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 153, 0.662);
+}
+.login-form-container{
+    height: 75%;
+    width: 60%;
+    max-width: 600px;
+    min-width: 450px;
+    border-radius: 10px;
+    font-size: larger;
+    padding: 10px;
+    box-shadow: 1px 1px 8px;
+}
+.login-form-each-div{
+    width: 100%;
+    height: 15%;
+}
+.login-form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+}
+#email, #password{
+    height: 45%;
+    width: 98%;
+    font-size: medium;
+    border-radius: 5px;
+    border: 1px black solid;
+    outline: none;
+}
+.login-form-title{
+    font-size: 29px;
+    color: rgb(0, 0, 153);
+}
+.bold{
+    font-weight: 550;
+}
+.login-form-background-change{
+    background-color: rgba(72, 72, 247, 0.184);
+    border-radius: 5px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    color: rgb(2, 2, 165);
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+#email:focus{
+    box-shadow: 1px 1px 5px rgba(72, 72, 247, 0.348);
+    border: 1px solid rgb(72, 72, 247);
+}
+#password:focus{
+    box-shadow: 1px 1px 5px rgba(72, 72, 247, 0.348);
+    border: 1px solid rgb(72, 72, 247);
+}
+.login-form-forgot{
+    display: flex;
+    justify-content: space-between;
+    height: 7%;
+}
+.login-form-title-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.login-form-button{
+    background-color: rgba(0, 0, 153, 0.662);
+    border: none;
+    /* outline: none; */
+    border-radius: 10px;
+    width: 100%;
+    height: 70%;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.login-form-button:active{
+    background-color: rgba(0, 0, 155, 0.599);
+}
+.login-form-button-parent{
+    height: 10%;
+}
+.login-form-last-div{
+    display: flex;
+    justify-content: center;
+}
+.login-form-space-div{
+    width: 10%;
+}
+.login-form-status{
+    color: red;
+}
